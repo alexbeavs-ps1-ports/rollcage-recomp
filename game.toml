@@ -5,6 +5,8 @@ id = "SLUS-00800"
 players = 1
 exe = "disc/SLUS_008.00"
 disc = "disc/Rollcage (USA).cue"
+discs = ["disc/Rollcage (USA).cue"]
+disc_serials = ["SLUS-00800"]
 load_address = "0x80018000"
 entry_pc = "0x8001C4CC"
 text_size = "0x00006000"
@@ -12,17 +14,20 @@ stack_base = "0x801FFFF0"
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Rollcage (USA).bin"
+bin_name = "Rollcage (USA) (Track 01).bin"
 cue_name = "Rollcage (USA).cue"
 boot_exe = "SLUS_008.00"
-known_sizes = [680515920]
+known_sizes = [153129312, 680515920]
 known_md5 = [
+  "2386b48c3b480c0cd17df5dbbb6d7337",
   "9e21ea6446e6dba040d7aa859f584ee9",
 ]
 known_sha1 = [
+  "8b40c3f2942c999957b86640c80504cddaf9f1fd",
   "a75270c0c5f7d71bdf0ab10ad5097606c4e47220",
 ]
 known_crc32 = [
+  "295ce423",
   "cff63dee",
 ]
 
