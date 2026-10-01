@@ -2,7 +2,7 @@
 [game]
 name = "Rollcage"
 id = "SLUS-00800"
-players = 1
+players = 2
 exe = "disc/SLUS_008.00"
 disc = "disc/Rollcage (USA).cue"
 discs = ["disc/Rollcage (USA).cue"]
