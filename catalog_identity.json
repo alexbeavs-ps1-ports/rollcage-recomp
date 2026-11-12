@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Rollcage",
+    "id": "SLUS-00800",
+    "boot_exe": "SLUS_008.00"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Rollcage (USA).cue",
+    "bin_name": "Rollcage (USA).bin",
+    "track_counts": [
+      16
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 680515920,
+      "md5": "9e21ea6446e6dba040d7aa859f584ee9",
+      "sha1": "a75270c0c5f7d71bdf0ab10ad5097606c4e47220",
+      "crc32": "cff63dee"
+    },
+    "disc_fp": "a3e0d122f5d4b0391b7e5c94622fbcf5a8054737cf4f432b4355401f002ef1ac"
+  },
+  "exe": {
+    "load_address": "0x80018000",
+    "entry_pc": "0x8001C4CC",
+    "text_size": "0x00006000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 69,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
